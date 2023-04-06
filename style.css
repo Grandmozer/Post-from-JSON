@@ -1,0 +1,65 @@
+.indent{
+    margin: 20px;
+    padding: 20px;
+}
+.mr-l{
+    margin-left: 20px;
+}
+.mr-b{
+    margin-bottom: 20px;
+}
+.width-card{
+    width: 18rem;
+}
+.container-list-advantages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    min-height: 100%;
+    list-style: none;
+    padding-top: 30px;
+  }
+  .cart-list-advantages:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+.scale{
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.05);
+}
+.return {
+    padding-left: 30px;
+    background-image: url("/img/keyboard-left-arrow-button_icon-icons.com_72692.svg");
+    background-position: left center;
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+.btn-special-close{
+    background-color: transparent;
+}
+.img-content-end{
+    max-width: 300px;
+}
+.header-container{
+    display: flex;
+    height: 100%;
+}
+.body-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.container-title{
+    width: 998px;
+    align-items: center;
+    margin-left: 290px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color:black
+}
